@@ -24,11 +24,13 @@ This project implements a simple String Calculator following the Test-Driven Dev
    git clone git@github.com:shipraevry/TDD.git
    cd TDD
 2. Install reuired gems:
+   ```sh
    bundle install
 
 ## Running Tests
 
-   To run the tests, execute:
+1. To run the tests, execute:
+   ```sh
    bundle exec rspec
 
 ## Implementation details
@@ -41,6 +43,6 @@ The StringCalculator class has a single class method add which takes a string of
 - Custom delimiters can be defined at the beginning of the string using the format //[delimiter]\n[numbers].
 - If negative numbers are included, an exception is raised listing all negative numbers provided.
 
-## TDD PRocess
+## TDD Process
 
 This project was developed using the Test-Driven Development (TDD) methodology. The process involved writing a test for each feature, implementing the simplest solution to pass the test, and refactoring as necessary.
